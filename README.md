@@ -1,3 +1,4 @@
+# TEST CHANGE
 ## 🌱 AgroTech — Smart Farming Dashboard
 
 > 🚀 A Smart Agriculture System combining IoT + Web App + Android APK to improve crop monitoring, disease detection, and farm decision-making.
@@ -54,6 +55,16 @@ AGROTECH-V1/
 * ❌ Displays “No Plant Detected” for invalid images
 
 ---
+## 🌟 Feature Preview
+
+| Feature | Preview |
+|----------|----------|
+| 🌿 Disease Detection | Detect crop diseases from images |
+| 💧 Moisture Monitoring | Real-time soil moisture tracking |
+| 📷 ESP32-CAM | Live field image monitoring |
+| 📊 Analytics Dashboard | Interactive charts and insights |
+| 🔐 Firebase Auth | Secure login and authentication |
+| 📱 Android App | Mobile access through APK |
 
 ### 📷 ESP32-CAM Integration
 
@@ -133,24 +144,27 @@ AgroTech is also deployed as a native Android application using Android Studio.
 * Java (JDK)
 
 ---
-## Preview of front page 
+## 📸 Screenshots
+
+### 🏠 Home Dashboard
 <p align="center">
-  <img src="Preview-1.png" width="600">
+  <img src="Preview-1.png" width="800" alt="AgroTech Home Dashboard">
 </p>
 
----
+### 🌱 Smart Monitoring Dashboard
+<p align="center">
+  <img src="Preview-2.png" width="800" alt="Smart Monitoring Dashboard">
+</p>
 
-## Preview
+### 🔍 Plant Disease Detection
 <p align="center">
-  <img src="Preview-2.png" width="600">
+  <img src="Preview-3.png" width="800" alt="Plant Disease Detection">
 </p>
+
+### 📊 Analytics & Insights
 <p align="center">
-  <img src="Preview-3.png" width="600">
+  <img src="Preview-4.png" width="800" alt="Analytics Dashboard">
 </p>
-<p align="center">
-  <img src="Preview-4.png" width="600">
-</p>
----
 
 ## Implementation Steps
 
@@ -208,16 +222,24 @@ app-release.apk
 
 ## ⚙️ System Workflow
 
-```
-ESP32 Sensors → Firebase → Web App → Android App
-```
+## 🔄 System Workflow
 
-1. Sensors collect real-time data
-2. ESP32 sends data to Firebase
-3. Web app fetches & displays data
-4. Android app loads same system
-5. User receives insights & recommendations
----
+```text
+┌─────────────┐
+│ ESP32 Sensor│
+└──────┬──────┘
+       │
+       ▼
+┌─────────────┐
+│ Firebase DB │
+└──────┬──────┘
+       │
+ ┌─────┴─────┐
+ ▼           ▼
+Web App   Android App
+ ▼           ▼
+ Farmer Dashboard
+```
 
 
 ## 📡 IoT Integration
